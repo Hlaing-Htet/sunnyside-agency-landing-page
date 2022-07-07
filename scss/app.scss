@@ -1,1 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,900&display=swap");
+$secondary: hsl(51, 100%, 49%);
+$danger: hsl(7, 99%, 70%);
+
+$btn-border-radius: 30px;
+$btn-padding-x: 25px;
+$btn-padding-y: 0.8rem;
+$nav-link-color: #fff;
+$navbar-padding-y: 35px;
+$font-family-sans-serif: "Barlow", sans-serif;
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+body {
+  font-size: 18px !important;
+}
+header {
+  background-image: url(../images/desktop/image-header.jpg);
+  background-size: 100% 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+}
+.nav-item {
+  padding: 0 13px;
+}
+.font-serif {
+  font-family: "Fraunces", serif;
+}
+.hero {
+  letter-spacing: 0.7rem;
+}
+.text-shadow {
+  height: 5px;
+}
