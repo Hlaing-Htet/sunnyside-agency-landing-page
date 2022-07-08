@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,900&display=swap");
 $secondary: hsl(51, 100%, 49%);
 $danger: hsl(7, 99%, 70%);
-
+$success: hsl(210, 4%, 67%);
+$dark: hsl(213, 9%, 39%);
+$warning: hsl(168, 50%, 71%);
+$info: hsl(167, 40%, 24%);
+$primary: hsl(168, 34%, 41%);
 $btn-border-radius: 30px;
 $btn-padding-x: 25px;
 $btn-padding-y: 0.8rem;
@@ -32,4 +36,10 @@ header {
 }
 .text-shadow {
   height: 5px;
+}
+.w-15 {
+  width: 15%;
+}
+.w-90 {
+  width: 90%;
 }
